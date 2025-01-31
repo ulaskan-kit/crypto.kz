@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Видео ойнатқыш</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .video-container {
+            position: relative;
+            width: 80%;
+            max-width: 960px; /* YouTube-қа ұқсас өлшем */
+            padding-bottom: 40.40%;
+            background-color: #000;
+        }
+
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="video-container">
+        <video controls>
+            <source src="./videos/Толық сабақ.MOV" type="video/mp4">
+            Сіздің браузеріңіз видеоны қолдамайды.
+        </video>
+    </div>
+
+</body>
+</html>
+
